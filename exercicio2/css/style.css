@@ -1,0 +1,18 @@
+
+body {
+  text-align: center;
+}
+
+.name {
+	font: Arial;
+	font-size: 14px;
+	font-style: bold;
+}
+
+.titulo {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: yellow;
+    border-radius: 25px;
+    text-align: center;
+}

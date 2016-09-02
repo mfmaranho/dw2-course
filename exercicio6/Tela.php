@@ -31,16 +31,32 @@ HTML;
 
 		}
 
-		public function getLabel(){
+		public function getLabel($label){
+			echo 
+<<<TEXT
+				<div>
+					<label for='ex'>$label</label>
+	
+TEXT;
+		}
+
+		public function getButton($name, $value, $type){
+						echo 
+<<<TEXT
+				<div>
+					<button type=$type value=$value>$name</label>	
+				</div>
+TEXT;
 
 		}
 
-		public function getButton(){
+		public function getSelect($values){
+			$sel = "<select>"
+			for $i = 0; $i < $values.length; $i++{
+				
+			}
+			$sel .= 
 
-		}
-
-		public function getSelect(){
-			
 		}
 
 
